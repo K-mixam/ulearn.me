@@ -1,5 +1,0 @@
-public static double Calculate(string userInput)
-{
-	var str = userInput.Split();
-	return double.Parse(str[0]) * Math.Pow(1 + double.Parse(str[1]) / 1200.0, double.Parse(str[2]));
-}
